@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLASS6</title>
+    <!-- INTERNAL CSS -->
+    <style>
+        h1{
+            color:white;
+           line-height: 40px;
+           
+           
+        }
+        /* h2{
+            color: black;
+            font-size: 30px;
+           font-style: italic;
+           /* help to capitalize first letter of each word capital */
+           /* text-transform: capitalize; 
+           text-decoration:solid; */
+           /* to move text to a certain distance from left or right  */
+           /* text-indent: 150px;
+           letter-spacing: 2px;
+           word-spacing: 3px; */
+           /* line-height: 2px; */
+        /* } */ 
+        body{
+            background-color: crimson;
+            /* background-image: linear-gradient(90deg,blue,white,purple); */
+            /* background-image: url(https://images.pexels.com/photos/992734/pexels-photo-992734.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); */
+          
+            background-size: cover;
+            /* background-repeat: repeat-y; */
+            background-attachment: fixed;
+            padding-top: 80px;
+        }
+        /* Animation means moving anything */
+        #mybox{
+            width: 200px;
+            height: 200px;
+            background-color: aqua;
+            margin: 20px;
+            border-radius: 20px;
+            text-align: center;
+            animation-name: myanim;
+            animation-duration: 3s;
+            animation-iteration-count: 4;
+            /* for changing position */
+            position: relative;
+        }
+        /* @keyframes: used for animation */
+        @keyframes myanim{
+            /* from{background-color: blueviolet;left: 200px;}
+            to{background-color: coral;right: 0px;} */
+            20%{background-color: red;left: 0px;top: 0px;}
+            40%{background-color: blue;left: 200px;top: 0px;}
+            60%{background-color: teal;left: 200px;top: 200px;}
+            80%{background-color: darkolivegreen;left: 0px;top: 200px;}
+            100%{background-color: fuchsia;left: 0px;top: 0px;}
+            }
+            #Header{
+                width: 100%;
+                top: 0px;
+                left: 0px;
+                background-image: linear-gradient(90deg,orange,yellow);
+                color: white;
+                text-align: center;
+                position: fixed;
+            }
+            #footer{
+                width: 100%;
+                bottom: 0px;
+                left: 0px;
+                background-image: linear-gradient(90deg, indigo,yellow);
+                color: white;
+                text-align: center;
+                position: fixed;
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                font-size: 30px;
+            }
+        
+    </style>
+</head>
+<body>
+    <div id="Header">
+        <h2>Welcome</h2>
+    </div>
+    <div align="left">
+        <!-- <h1 >WELCOME</h1> -->
+        <h1>Cherry Blossom</h1>
+        <!-- <h2>I am nothing and everything <br>
+            but never in between <br>
+            the green buds or the dead leaves <br>
+            but never the cherry blossom. <br>
+            And that’s okay. <br>
+            
+            She is the whole bright bloom <br>
+            the cherry blossom incarnate, <br>
+            consistant and whole <br>
+            even in moments <br>
+            when her joy is fleeting. <br>
+            
+            I am whole too. <br>
+            Home amoung the petals <br>
+            and spring breezes. <br>
+            This isn’t in between, <br>
+            it doesn’t have to be. <br>
+            
+            She does not follow <br>
+            does not lead <br>
+            let’s her heart go where it must <br>
+            there is no choice, <br>
+            and that’s okay. <br>
+            
+            We’re born fractured sometimes <br>
+            coming together eventually <br>
+            even after the longest life. <br>
+            We can be whole <br>
+            even if just for a little while. <br></h2> -->
+    </div>
+    <div align="center" id="mybox">
+        <h2>Thankz</h2>
+
+    </div>
+    <div id="footer"> Thank u</div>
+    
+</body>
+</html>

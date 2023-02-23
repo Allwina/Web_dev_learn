@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class 7</title>
+    <style>
+        /* for grid */
+        /* #Home{grid-area: Home;}
+        #Link{
+            grid-area: Link;
+        }
+        #Address{
+            grid-area: Address;
+        }
+        #About{
+            grid-area: About;
+        }
+        #Task{
+            grid-area: Task;
+        } */
+
+        #maindiv{
+            display: flex;
+            flex-direction: row;
+            /* display:-ms-grid;
+            grid-template-areas: " Details Details Details Details Details Details   "
+            " Website Website Website Contact Contact Contact"
+            "Visit Visit Visit Work Work Work"; */
+            padding: 20px;
+            background-color: aquamarine;
+            background-image: linear-gradient(120deg, blue,white,purple);
+            margin: 20px;
+          }
+          #maindiv >div{
+            background-color: blueviolet;
+            padding: 20px;
+            border-radius: 20px;
+            margin: 20px;
+            color: antiquewhite;
+            text-align: center;
+            font-family: fantasy;
+            font-size: 20px;
+          }
+    </style>
+   
+</head>
+<body>
+    <!-- Grid box - it is a 2D(is a combo of rows and columns)-->
+<div id="maindiv">
+    <div id="Home">Details</div>
+    <div id="Link">Website</div>
+    <div id="Address">Contact</div>
+    <div id="About">Visit </div>
+    <div id="Task">Work </div>
+
+</div>
+    
+</body>
+</html>

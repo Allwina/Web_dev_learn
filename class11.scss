@@ -1,0 +1,20 @@
+//variable->data container
+$color1:#dc2f02;
+#mydiv{
+    background-color:$color1  ;
+
+$mycolor:pink;
+h1{
+    color: yellow;
+    // background-color: red;
+    font-family: fantasy;
+}
+h2{
+    // background-color: $mycolor;
+    font-size: 50px;
+} 
+h3{
+    color: black;
+    font-family: cursive;
+}
+}
